@@ -24,7 +24,12 @@ body {
 body {
   font-family: Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  background: radial-gradient(circle at top right, #1a2858 0%, var(--bg) 45%);
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(11, 16, 32, 0.5), rgba(11, 16, 32, 0.5)), url("7C80C643-C564-4EE6-9DA8-A77EC471CFBD_1_102_o.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--text);
 }
 
@@ -47,7 +52,7 @@ body {
 }
 
 .panel {
-  background: linear-gradient(180deg, var(--surface), var(--surface-2));
+  background: linear-gradient(180deg, rgba(18, 26, 48, 0.9), rgba(25, 36, 69, 0.9));
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.25rem;
