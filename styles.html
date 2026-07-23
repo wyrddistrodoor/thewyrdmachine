@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styles | The Wyrd Machine</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Style Guide</h1>
+        <p class="subtitle">Reusable components and visual tokens for The Wyrd Machine</p>
+      </div>
+    </header>
+
+    <main class="container stack">
+      <section class="panel stack">
+        <h2>Color Tokens</h2>
+        <div class="swatch-grid">
+          <div class="swatch"><span class="chip chip-bg"></span><code>--bg</code></div>
+          <div class="swatch"><span class="chip chip-surface"></span><code>--surface</code></div>
+          <div class="swatch"><span class="chip chip-text"></span><code>--text</code></div>
+          <div class="swatch"><span class="chip chip-muted"></span><code>--muted</code></div>
+          <div class="swatch"><span class="chip chip-accent"></span><code>--accent</code></div>
+          <div class="swatch"><span class="chip chip-accent-2"></span><code>--accent-2</code></div>
+        </div>
+      </section>
+
+      <section class="panel stack">
+        <h2>Typography</h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <p>
+          This is body text. It demonstrates spacing, line-height, and color contrast for readable content.
+        </p>
+        <p class="muted">Muted supporting text for metadata or helper copy.</p>
+      </section>
+
+      <section class="panel stack">
+        <h2>Buttons</h2>
+        <div class="row">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-ghost">Ghost</button>
+        </div>
+      </section>
+
+      <section class="panel stack">
+        <h2>Cards</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Card Title</h3>
+            <p>Compact content block for features, links, or summaries.</p>
+            <a href="#" class="text-link">Read more</a>
+          </article>
+          <article class="card">
+            <h3>Another Card</h3>
+            <p>Cards share spacing, border, and elevation rules.</p>
+            <a href="#" class="text-link">Explore</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel stack">
+        <h2>Form Elements</h2>
+        <form class="stack" action="#" method="get">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write something..."></textarea>
+
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
